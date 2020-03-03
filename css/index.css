@@ -307,5 +307,6 @@ footer {
   width: 100%;
 }
 .last-section .testimonials .testimonial .photo {
-  width: 30%;
+  width: 60%;
+  height: auto;
 }
