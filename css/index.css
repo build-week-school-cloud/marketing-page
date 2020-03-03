@@ -127,6 +127,7 @@ table {
   border-spacing: 0;
 }
 .home {
+  background-color: rgba(255, 255, 255, 0.5);
   /* Navbar links */
 }
 .home h1 {
@@ -162,6 +163,7 @@ table {
   background-color: skyblue;
   position: fixed;
   top: 0;
+  background: rgba(0, 217, 255, 0.1);
 }
 .home #navbar a {
   float: left;
@@ -190,22 +192,34 @@ footer {
   width: 100%;
   height: 30%;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  font-style: italic;
-  background: white;
-  text-align: right;
+.welcoming-section {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  background: #CAFAFE;
+  padding-bottom: 5%;
 }
-.right-below {
-  position: absolute;
-  top: 60%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+.welcoming-section h3 {
+  margin: 3% 0 1% 0;
   font-size: 2rem;
-  color: black;
-  background: white;
+}
+.welcoming-section h2 {
+  margin: 2% 2% 1% 2%;
+  font-size: 3rem;
+}
+.welcoming-section .buttons button {
+  width: 16%;
+  margin: 0 auto;
+  padding: 1%;
+  border-radius: 10%;
+  margin: 1% 2%;
+}
+.welcoming-section .paragraph {
+  width: 60%;
+  margin: 0 auto;
+}
+.welcoming-section .paragraph p {
+  margin: 2% auto;
+  font-size: 1.2rem;
+  text-align: left;
 }
