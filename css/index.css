@@ -134,14 +134,13 @@ table {
   border-spacing: 0;
 }
 .home {
-  background-color: rgba(255, 255, 255, 0.5);
   /* Navbar links */
 }
 .home h1 {
   font-size: 3rem;
   text-align: center;
   width: 50%;
-  color: white;
+  color: navy;
 }
 .home .top-section {
   display: flex;
@@ -155,7 +154,7 @@ table {
   justify-content: space-evenly;
   width: 100%;
   background-color: skyblue;
-  padding: 1% 0;
+  padding: 0.5% 0;
 }
 .home nav a {
   display: flex;
@@ -170,14 +169,14 @@ table {
   background-color: skyblue;
   position: fixed;
   top: 0;
-  background: rgba(0, 217, 255, 0.1);
+  background: rgba(0, 217, 255, 0.7);
 }
 .home #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: navy;
   text-align: center;
-  padding: 14px;
+  padding: 10px;
   text-decoration: none;
 }
 footer {
@@ -299,14 +298,104 @@ footer {
   justify-content: space-between;
   align-content: center;
 }
-.last-section {
-  width: 100%;
+.as-seen-on .logos .logo1 {
+  height: 65px;
+}
+.last-section h3 {
+  margin-top: 3%;
+  font-size: 3rem;
+  font-weight: bold;
 }
 .last-section .testimonials {
   display: flex;
+  justify-content: space-evenly;
+}
+.last-section .testimonials .testimonial {
   width: 100%;
+  border: 2px solid dodgerblue;
+  margin: 3%;
+  padding: 1%;
+  border-radius: 10px;
+  background: skyblue;
 }
 .last-section .testimonials .testimonial .photo {
-  width: 60%;
-  height: auto;
+  width: 80%;
+  margin-top: 4%;
+  border: 2px solid dodgerblue;
+  border-radius: 10px;
+}
+.last-section .testimonials .testimonial p {
+  margin: 4%;
+  text-align: left;
+}
+.last-section .testimonials .testimonial h4 {
+  margin: 4%;
+  text-align: right;
+  font-weight: bold;
+}
+button {
+  width: 24%;
+  height: 50px;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  padding: 0%;
+  border-radius: 10px;
+  font-family: 'Anton';
+  color: white;
+  background: dodgerblue;
+}
+.image {
+  margin-top: -13%;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container h4 {
+  font-size: 3rem;
+  margin: 1% 0;
+}
+.container .upper-section {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.container .upper-section .staff1 {
+  width: 15%;
+  border: 2px solid dodgerblue;
+  margin: 2% 3% 2% 3%;
+  justify-content: space-between;
+  padding: 1%;
+  border-radius: 10px;
+  background: skyblue;
+}
+.container .upper-section .staff1 .person-picture {
+  border-radius: 500px;
+  width: 65%;
+}
+.container .down-section {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+.container .down-section .staff2 {
+  width: 15%;
+  border: 2px solid dodgerblue;
+  margin: 2% 3% 2% 3%;
+  justify-content: space-evenly;
+  padding: 1%;
+  border-radius: 10px;
+  background: skyblue;
+}
+.container .down-section .staff2 .person-picture {
+  border-radius: 500px;
+  width: 65%;
 }
