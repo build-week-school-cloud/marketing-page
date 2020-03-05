@@ -1,5 +1,7 @@
 # marketing-page
 
+<p>This Project shows the usages of HTML/CSS, Responsiveness, and PreProcessing as stated below:</p>
+
 <h1>HTML/CSS</h1>
 
 <p> This project laid out the design that matches the example perfectly. CSS fundamentals such as: box model, flexbox, and positioning were used appropriately.<p>
