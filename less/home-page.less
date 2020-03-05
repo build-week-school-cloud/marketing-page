@@ -10,27 +10,27 @@
     height: 30%;
 } 
 
-// .centered {
-//     position: absolute;
-//     top: 9%;
-//     left:50%;
-//     transform: translate(-50%, -50%);
-//     font-size: 3rem;
-//     font-style: italic;
-//     // border: 2px dotted dodgerblue;
-//     background: white;
-//     text-align: right;
-// }
+.centered {
+    position: absolute;
+    top: 9%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-style: italic;
+    // border: 2px dotted dodgerblue;
+    background: white;
+    text-align: right;
+}
 
-// .right-below {
-//     position: absolute;
-//     top: 14%;
-//     left:70%;
-//     transform: translate(-50%, -50%);
-//     font-size: 2rem;
-//     color: black;
-//     background: white;
-// }
+.right-below {
+    position: absolute;
+    top: 14%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: black;
+    background: white;
+}
 
 .welcoming-section{
 
@@ -71,6 +71,18 @@
             color: white;
             background: dodgerblue
         }
+
+        button:hover{
+            width: 24%;
+            height: 50px;
+            font-size: 1.4rem;
+            margin: 3% auto;
+            padding: 0%;  
+            border-radius: 10px;
+            font-family: 'Anton', ;
+            color: dodgerblue;
+            background: white;
+        }
     }
     
   
@@ -85,6 +97,8 @@
         p{
             margin: 2% auto;
             font-size: 1.2rem;
+            word-spacing: 1px;
+            line-height:1.4;
             text-align: left;
             
         }
@@ -103,7 +117,7 @@
     margin-bottom: 5%;
 
     h2{
-        margin: 1% 0 0 0;
+        margin: 2% 0 2% 0;
         font-size: 2rem;
         font-weight: bold;
         color: black;
@@ -117,10 +131,11 @@
         border-radius: 10px;
         
         p{
-            margin: 0 auto;
+            margin: 2% auto;
             font-size: 1.5rem;
             text-align: left;
-            line-spacing: 2px;
+            word-spacing: 1px;
+            line-height:1.4;
             
         }
 
@@ -148,8 +163,6 @@
         flex-wrap: wrap;
         flex-direction: row-reverse;
         width: 80%;
-        // padding-bottom: 3%;
-       
 
         .logo{
             width:17%;
@@ -160,7 +173,6 @@
 
         .logo1{
             height: 65px;
-            // align-content: center;
         }
     }
 }
@@ -220,15 +232,29 @@ button{
     font-family: 'Anton', ;
     color: white;
     background: dodgerblue
-
-    
 }
 
-.image{
+button:hover{
+    width: 24%;
+    height: 50px;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding: 0%;  
+    border-radius: 10px;
+    font-family: 'Anton', ;
+    color: dodgerblue;
+    background: white;
+}
+
+
+.about-top-image{
     margin-top: -13%;
+    width: 100%;
 }
 
 .container{
+
     width: 100%;
     margin: 0 auto;
     
@@ -243,7 +269,6 @@ button{
         align-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
-        // margin: 0 auto;
 
         .staff1{
             width: 15%;
@@ -254,11 +279,43 @@ button{
             border-radius: 10px;
             background: skyblue;
 
+            h3{
+                font-size: 1.5rem;
+                margin: 2%;
+            }
 
             .person-picture{
                 border-radius: 500px;
                 width: 65%;
+                border: 2px solid dodgerblue;
                 
+            }
+
+            button{
+                width: 25%;
+                font-size: 1rem;
+                margin: 3% auto;
+                padding: 0%;  
+                border-radius: 10px;
+                font-family: 'Anton', ;
+                color: white;
+                background: navy;
+                border: 2px solid dodgerblue;
+            
+                
+            }
+
+            button:hover{
+                width: 25%;
+                font-size: 1rem;
+                margin: 3% auto;
+                padding: 0%;  
+                border-radius: 10px;
+                font-family: 'Anton', ;
+                color: navy;
+                background: white;
+                border: 2px solid dodgerblue;
+            
             }
         }
         
@@ -274,7 +331,7 @@ button{
         flex-wrap: wrap;
         margin: 0 auto;
         margin-bottom: 3%;
-        // margin: 0 auto;
+
         .staff2{
             width: 15%;
             border: 2px solid dodgerblue;
@@ -284,10 +341,39 @@ button{
             border-radius: 10px;
             background: skyblue;
 
+            h3{
+                font-size: 1.5rem;
+            }
 
             .person-picture{
                 border-radius: 500px;
                 width: 65%;
+                border: 2px solid dodgerblue;
+                
+            }
+            button{
+                width: 25%;
+                font-size: 1rem;
+                margin: 3% auto;
+                padding: 0%;  
+                border-radius: 10px;
+                font-family: 'Anton', ;
+                color: white;
+                background: navy;
+            
+                
+            }
+            button:hover{
+                width: 25%;
+                font-size: 1rem;
+                margin: 3% auto;
+                padding: 0%;  
+                border-radius: 10px;
+                font-family: 'Anton', ;
+                color: navy;
+                background: white;
+                border: 2px solid dodgerblue;
+            
                 
             }
         }
