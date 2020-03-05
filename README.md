@@ -1,6 +1,6 @@
 # marketing-page
 
-<p>This Project shows the usages of HTML/CSS, Responsiveness, and PreProcessing as stated below:</p>
+<p>This Project shows the usages of HTML/CSS, Responsiveness, and PreProcessing as stated below:mar</p>
 
 <h1>HTML/CSS</h1>
 

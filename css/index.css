@@ -556,7 +556,7 @@ button:hover {
 .container .upper-section .staff1 button:hover {
   width: 90px;
   color: navy;
-  background: white;
+  background: prink;
   border: 2px solid dodgerblue;
 }
 .container .down-section {
@@ -600,7 +600,7 @@ button:hover {
   border-radius: 10px;
   font-family: 'Anton';
   color: white;
-  background: navy;
+  background: prink;
 }
 .container .down-section .staff2 button:hover {
   font-family: 'Anton';
