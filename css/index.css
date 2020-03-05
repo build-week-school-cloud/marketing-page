@@ -5,6 +5,23 @@
   font-display: swap;
   src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3Kz-Co.ttf) format('truetype');
 }
+.button-size {
+  width: 24%;
+  height: 50px;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  padding: 0%;
+  border-radius: 10px;
+  font-family: 'Anton';
+}
+.button-size2 {
+  width: 90px;
+  font-size: 1rem;
+  margin: 3% auto;
+  padding: 0%;
+  border-radius: 10px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -142,6 +159,11 @@ table {
   width: 50%;
   color: navy;
 }
+@media (max-width: 500px) {
+  .home h1 {
+    display: none;
+  }
+}
 .home .top-section {
   display: flex;
   justify-content: space-evenly;
@@ -149,12 +171,17 @@ table {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .home .top-section {
+    flex-direction: column;
+  }
+}
 .home nav {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   background-color: skyblue;
-  padding: 0.5% 0;
+  padding: 1% 0;
 }
 .home nav a {
   display: flex;
@@ -163,6 +190,14 @@ table {
   color: grey;
   font-size: 1.6rem;
   width: 80%;
+}
+@media (max-width: 500px) {
+  .home nav a {
+    flex-direction: column;
+    font-size: 1rem;
+    width: 100%;
+    margin: -1%;
+  }
 }
 .home #navbar {
   overflow: hidden;
@@ -176,8 +211,11 @@ table {
   display: block;
   color: navy;
   text-align: center;
-  padding: 10px;
+  padding: 14px;
   text-decoration: none;
+}
+.home #navbar a:hover {
+  color: purple;
 }
 footer {
   color: #22283B;
@@ -205,6 +243,14 @@ footer {
   font-style: italic;
   background: white;
   text-align: right;
+  border-radius: 10px;
+  border: 2px solid navy;
+  padding: 3%;
+}
+@media (max-width: 900px) {
+  .centered {
+    display: none;
+  }
 }
 .right-below {
   position: absolute;
@@ -214,10 +260,53 @@ footer {
   font-size: 2rem;
   color: black;
   background: white;
+  border-radius: 10px;
+  border: 2px solid navy;
+  padding: 1%;
+}
+@media (max-width: 900px) {
+  .right-below {
+    display: none;
+  }
+}
+.centered1 {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-style: italic;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid navy;
+  padding: 3%;
+}
+@media (max-width: 900px) {
+  .centered1 {
+    display: none;
+  }
+}
+.right-below1 {
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid navy;
+  padding: 1%;
+}
+@media (max-width: 900px) {
+  .right-below1 {
+    display: none;
+  }
 }
 .welcoming-section {
   text-align: center;
-  width: 70%;
+  width: 85%;
   margin: 3.5% auto;
   background: #EBFCFB;
   padding-bottom: 2%;
@@ -239,24 +328,33 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .welcoming-section .buttons {
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 .welcoming-section .buttons button {
-  width: 24%;
+  width: 40%;
   height: 50px;
   font-size: 1.4rem;
-  margin: 3% auto;
+  margin: 3%;
   padding: 0%;
   border-radius: 10px;
   font-family: 'Anton';
   color: white;
   background: dodgerblue;
 }
+@media (max-width: 500px) {
+  .welcoming-section .buttons button {
+    width: 90%:
+                margin: 3% auto;
+  }
+}
 .welcoming-section .buttons button:hover {
-  width: 24%;
-  height: 50px;
-  font-size: 1.4rem;
-  margin: 3% auto;
-  padding: 0%;
   border-radius: 10px;
   font-family: 'Anton';
   color: dodgerblue;
@@ -331,8 +429,19 @@ footer {
   justify-content: space-between;
   align-content: center;
 }
+@media (max-width: 500px) {
+  .as-seen-on .logos .logo {
+    width: 90%;
+    margin: 5% auto;
+  }
+}
 .as-seen-on .logos .logo1 {
   height: 65px;
+}
+@media (max-width: 500px) {
+  .as-seen-on .logos .logo1 {
+    height: 100px;
+  }
 }
 .last-section h3 {
   margin-top: 3%;
@@ -343,8 +452,14 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .last-section .testimonials {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
 .last-section .testimonials .testimonial {
-  width: 100%;
+  width: 90%;
   border: 2px solid dodgerblue;
   margin: 3%;
   padding: 1%;
@@ -365,6 +480,7 @@ footer {
   margin: 4%;
   text-align: right;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 button {
   width: 24%;
@@ -379,14 +495,6 @@ button {
   background: dodgerblue;
 }
 button:hover {
-  width: 24%;
-  height: 50px;
-  font-size: 1.4rem;
-  margin: 0 auto;
-  margin-bottom: 3%;
-  padding: 0%;
-  border-radius: 10px;
-  font-family: 'Anton';
   color: dodgerblue;
   background: white;
 }
@@ -400,7 +508,7 @@ button:hover {
 }
 .container h4 {
   font-size: 3rem;
-  margin: 1% 0;
+  margin: 1.25% 0 -1% 0;
 }
 .container .upper-section {
   display: flex;
@@ -419,9 +527,15 @@ button:hover {
   border-radius: 10px;
   background: skyblue;
 }
+@media (max-width: 500px) {
+  .container .upper-section .staff1 {
+    width: 90%;
+    margin: 3% auto;
+  }
+}
 .container .upper-section .staff1 h3 {
   font-size: 1.5rem;
-  margin: 2%;
+  margin: 4%;
 }
 .container .upper-section .staff1 .person-picture {
   border-radius: 500px;
@@ -429,7 +543,7 @@ button:hover {
   border: 2px solid dodgerblue;
 }
 .container .upper-section .staff1 button {
-  width: 25%;
+  width: 90px;
   font-size: 1rem;
   margin: 3% auto;
   padding: 0%;
@@ -440,12 +554,7 @@ button:hover {
   border: 2px solid dodgerblue;
 }
 .container .upper-section .staff1 button:hover {
-  width: 25%;
-  font-size: 1rem;
-  margin: 3% auto;
-  padding: 0%;
-  border-radius: 10px;
-  font-family: 'Anton';
+  width: 90px;
   color: navy;
   background: white;
   border: 2px solid dodgerblue;
@@ -468,8 +577,15 @@ button:hover {
   border-radius: 10px;
   background: skyblue;
 }
+@media (max-width: 500px) {
+  .container .down-section .staff2 {
+    width: 90%;
+    margin: 3% auto;
+  }
+}
 .container .down-section .staff2 h3 {
   font-size: 1.5rem;
+  margin: 2%;
 }
 .container .down-section .staff2 .person-picture {
   border-radius: 500px;
@@ -477,7 +593,7 @@ button:hover {
   border: 2px solid dodgerblue;
 }
 .container .down-section .staff2 button {
-  width: 25%;
+  width: 90px;
   font-size: 1rem;
   margin: 3% auto;
   padding: 0%;
@@ -487,11 +603,6 @@ button:hover {
   background: navy;
 }
 .container .down-section .staff2 button:hover {
-  width: 25%;
-  font-size: 1rem;
-  margin: 3% auto;
-  padding: 0%;
-  border-radius: 10px;
   font-family: 'Anton';
   color: navy;
   background: white;
