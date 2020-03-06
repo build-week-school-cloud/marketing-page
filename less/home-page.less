@@ -1,0 +1,165 @@
+.about-wrapper{
+    header{
+    .displayFlex(space-evenly, center);
+    flex-flow: nowrap;
+    margin-top: 2%;
+    h1{
+        @media @mobile{
+            font-size: 6rem;
+            margin: 10% 0;
+            width: 100%;
+        }
+        font-size: 8rem;
+        text-shadow: 4px 4px 4px #aaa;
+        text-align: center;
+        margin-top: 1%;
+        padding: 1%;
+        width: 50%;
+    }
+    }
+
+    .main-section-wrapper{
+        
+        border: 2px outset @nav-bg;
+        margin: 1% 5%;
+        padding: 2%;
+        background-color: @style-bg;
+        .mission{
+            .displayFlexColumn(flex-start,center);
+            margin-bottom: 2.5%;
+            h2{
+                @media @mobile{
+                    align-self: center;
+                    font-size: 4rem;
+                    margin-top: 5%;
+                }
+                @media @tablet{
+                    font-size: 4.5rem;
+                    margin-top: 3%;
+                }
+                align-self: flex-start;
+                font-size: 5rem;
+                margin-bottom: 1%;
+            }
+            p{
+                @media @mobile{
+                    padding-bottom: 5%;
+                }
+                font-size: 2.5rem;
+                text-align: center;
+                padding-bottom: 2%;
+                border-bottom: 1px dashed @nav-bg;
+            }
+        }
+        .features{
+            .displayFlexColumn(flex-start,center);
+            margin-bottom: 2.5%;
+            h2{
+                @media @mobile{
+                    align-self: center;
+                    font-size: 4rem;
+                    margin-top: 5%;
+                }
+                @media @tablet{
+                    font-size: 4.5rem;
+                    margin-top: 3%;
+                }
+                align-self: flex-start;
+                font-size: 5rem;
+                margin-bottom: 1%;
+            }
+            p{
+                font-size: 2.5rem;
+                text-align: center;
+                padding-bottom: 2%;
+            }
+            .featureLists{
+                @media @mobile{
+                    .displayFlexColumn(center, center);
+ 
+                }
+                .displayFlex(space-evenly, center);
+                width: 100%;
+                h4{
+                    @media @mobile{
+                        margin-top: 6%;
+                        margin-bottom: 4%;
+                    }
+                    @media @tablet{
+                        font-size: 2.5rem;
+                        margin-right: 5%;;
+                    }
+                    font-size: 3rem;
+                    padding-top: 1%;
+                    margin: 0 1%;
+                }
+                ul{
+                    @media @mobile{
+                        width: 50%;
+                    }
+                    @media @tablet{
+                        margin-top: 5%;
+                    }
+                    margin: 1% 1%;
+                    width: 20%;
+                    li{
+                        @media @tablet{
+                            font-size: 2rem;
+                        }
+                        font-size: 2rem;
+                        list-style-type: square;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-section-container{
+        @media @mobile{
+            .displayFlexColumn(center, center);
+            margin: 5%;
+        }
+        .displayFlex(space-evenly, center);
+        margin-bottom: 5%;
+        .about-img-wrapper{
+            @media @mobile{
+                width: 100%;
+            }
+            width: 48%;
+            margin: 0 5%;
+            img {
+                width:100%;
+                height: auto;
+                border: 2px outset @nav-bg;
+            }
+        }
+        .comingSoon{
+            @media @mobile{
+                .displayFlexColumn(center, center);
+                margin: 5% 0;
+    
+            }
+            @media @tablet{
+                margin-right: 18%;
+            }
+            .displayFlexColumn(flex-start, flex-end);
+            margin-right: 25%;
+            width:48%;
+            h2{
+                @media @mobile{
+                    font-size: 3rem;
+                    width: 100%;
+                }
+                font-size: 5rem;
+                margin-top: 5%;
+            }
+            ul{
+                margin-top: 2%;
+                li{
+                    font-size: 2.5rem;
+                    list-style-type: square;
+                }
+            }
+        }
+    }
+
+}
