@@ -1,0 +1,38 @@
+// NAVIGATION 
+.navbar{
+    .displayFlex(flex-end, center);
+    align-content: flex-end;
+    margin: 0% 1% 0% 0%;
+    padding: 1%;
+    width: 100%;
+    background-color: @blue-green;
+    nav{
+    @media @mobile {
+        .displayFlex(space-evenly, center);
+        width: 100%;
+        margin: 1% 5%;
+    }
+    .displayFlex(space-between, flex-end);
+    align-items: center;
+    width: 40%;
+    margin-right: 2%;
+
+    a {
+        @media @mobile{
+            padding: 1% 0;
+        }
+        color: @nav-font;
+        font-size: 1.5rem;
+        text-decoration: none;
+        &:hover{color: @main-bg};
+    }
+    .loginBtn {
+        text-align: center;
+        color: @nav-font;
+        background-color: @blue-green;
+        font-size: 1.5rem;
+        border: none;   
+        &:hover{color: @main-bg};
+    }
+    }
+}
